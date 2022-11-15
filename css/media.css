@@ -1,0 +1,399 @@
+/* @media (max-width: 1290px) {} */
+
+@media (max-width: 992px) {
+
+  .about-header .header__link,
+  .about-header .nav-dropdown a {
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .line {
+    background: #01010153;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    position: fixed;
+    width: 180px;
+    height: 100%;
+    top: 0;
+    right: -180px;
+    bottom: 0;
+    z-index: 98;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .header__list {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 180px;
+    right: -180px;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    overflow-y: auto;
+  }
+
+  .header__link.exit {
+    display: block;
+  }
+
+  .header__lin,
+  .nav-dropdown li a {
+    font-size: 14px;
+  }
+
+  .nav-dropdown {
+    left: 0;
+  }
+
+  .desc__txt {
+    max-width: 600px;
+  }
+
+  .desc__contant-2 {
+    max-width: 430px;
+  }
+}
+
+/* @media (max-width: 1320px) {} */
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .container {
+    max-width: 1100px;
+  }
+
+  .contacts .container {
+    flex-direction: column;
+    min-height: unset;
+  }
+
+  .contacts__blog {
+    padding-top: 150px;
+  }
+
+  .desc__txt {
+    max-width: 750px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 970px;
+  }
+
+  .header-setup,
+  .exit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    
+  }
+
+  .header__link {
+    font-size: 18px;
+  }
+
+  .header-setup a {
+    font-size: 32px;
+    color: #000;
+  }
+
+  .header__list {
+    position: fixed;
+    top: 0;
+    right: -180px;
+    bottom: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1000;
+    background: #f8f8f8;
+    height: 100%;
+    width: 180px;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+    text-align: center;
+  }
+
+  .header__contacts {
+    display: none;
+  }
+
+  .product__cards {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  section {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .banner video {
+    width: unset;
+    height: unset;
+  }
+
+  .feature__cards {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    gap: 30px 50px;
+  }
+
+  .gallery .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .gallery__banner-big {
+    height: 500px;
+    width: 700px;
+  }
+
+  .gallery__banner-small {
+    height: 350px;
+    width: 700px;
+  }
+
+  .special__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .special__card {
+    margin-bottom: 20px;
+    width: 70%;
+  }
+
+  .title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .desc__contant,
+  .desc2 .container {
+    flex-direction: column;
+  }
+
+  .partner .container {
+    flex-direction: column-reverse;
+  }
+
+  .desc__title {
+    max-width: unset;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .desc__contant-2 {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 684px) {
+  .container {
+    max-width: 654px;
+  }
+
+  .gallery__banner-big,
+  .gallery__banner-small {
+    width: 600px;
+    background-position: center right;
+  }
+
+  .info-desc {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 550px;
+  }
+
+  .banner .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 50px;
+    min-height: unset;
+    min-height: 600px;
+  }
+
+  .banner__blocks {
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+  }
+
+  .gallery__banner-big,
+  .gallery__banner-small {
+    width: 550px;
+    background-position: center right;
+  }
+
+  .product__card,
+  .product__card-img {
+    max-width: 250px;
+  }
+
+  .info .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .product__card,
+  .product__card-img {
+    max-width: 360px;
+  }
+
+  .banner__title,
+  .about__title,
+  .production__title {
+    font-size: 24px;
+  }
+
+  .banner__content img {
+    width: 220px;
+  }
+
+  .footer__list2 {
+    flex-direction: column;
+  }
+
+  .footer__list {
+    max-width: 260px;
+  }
+
+  .carousel__content-title {
+    font-size: 32px;
+  }
+
+  .desc__txt {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    max-width: 360px;
+  }
+
+  .banner .container {
+    min-height: unset;
+  }
+
+  .banner__blocks {
+    display: none;
+  }
+
+  .gallery__banner-big,
+  .gallery__banner-small {
+    width: 360px;
+  }
+
+  .gallery__banner-title {
+    font-size: 18px;
+  }
+
+  .gallery__banner-span {
+    font-size: 16px;
+  }
+
+  .special__card-name {
+    font-size: 18px;
+  }
+
+  .special__card-txt {
+    max-width: 150px;
+  }
+
+  .info-desc-title {
+    font-size: 24px;
+  }
+
+  .info-desc-txt,
+  .info-desc-btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .header__banner-collection,
+  .header__banner-txt {
+    font-size: 18px;
+  }
+
+  .header__banner-title {
+    font-size: 28px;
+  }
+
+  .header__logo {
+    max-width: 150px;
+  }
+
+  .gallery__banner-big,
+  .gallery__banner-small {
+    width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 300px;
+  }
+}
